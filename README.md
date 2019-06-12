@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # todo-vueapp
 
 ## Project setup
@@ -27,3 +28,6 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# todo-vueapp
+>>>>>>> 5c54540d52babec5811cad22fcf559b4680c24a9
