@@ -1,22 +1,12 @@
 <template>
-    <div id="app">
-        <upperNav class="upperNav"></upperNav>
-        <todoInput class="todoInput"></todoInput>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
     </div>
+    <router-view/>
+  </div>
 </template>
-
-<script>
-import todoInput from './components/todoInput.vue'
-import upperNav from './components/upperNav.vue'
-
-export default {
-  name: 'app',
-  components: {
-    todoInput,
-    upperNav
-  }
-}
-</script>
 
 <style>
     
@@ -37,6 +27,10 @@ export default {
     h3 {font-size: 1.875em; color: #848BFF; margin: 0;}
     h4 {font-size: 1.4em; margin: 0;}
     p {font-size: 1em; color: white; margin: 0;}
+    
+    nav {
+        width: 100%;
+    }
     
     
 </style>
